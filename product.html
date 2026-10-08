@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="เลือกซื้อ Body Scent ตาม Mood ที่เป็นคุณ">
+  <title>Products | Body Scent</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Body Scent Home">Body Scent</a>
+
+      <nav class="nav-links" aria-label="เมนูหลัก">
+        <a href="index.html">Home</a>
+        <a href="index.html#moods">Moods</a>
+        <a href="product.html">Products</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section-sm">
+      <div class="container center">
+        <p class="eyebrow">Body Scent Collection</p>
+        <h1 style="font-size:clamp(2.8rem,5vw,4.8rem);">เลือกกลิ่นที่เป็นคุณ</h1>
+        <p class="lead mt-3" style="margin-inline:auto;">
+          ค้นหาความหอมที่เข้ากับ Mood ของคุณ
+          ตั้งแต่ Fresh, Sweet, Confident ไปจนถึง Romance
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0;">
+      <div class="container">
+
+        <div
+          id="filter-bar"
+          class="hero__actions mb-6"
+          aria-label="ตัวกรองสินค้า"
+        ></div>
+
+        <div
+          id="product-list"
+          class="grid grid-3"
+          aria-live="polite"
+        ></div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="section-sm">
+    <div class="container center">
+      <div class="divider" style="margin-inline:auto;"></div>
+      <p class="brand">Body Scent</p>
+      <p class="text-muted mt-2">เลือกกลิ่นที่ใช่ เติมความรู้สึกที่เป็นคุณในทุกวัน</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
